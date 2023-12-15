@@ -1,0 +1,269 @@
+/* apply to totol webpage */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #EFECCA;
+    
+}
+/* apply to body */
+body {
+    min-height: 100vh;
+    padding: 0;
+    
+}
+
+/* Header CSS */
+.mainheader {
+    text-align: center;
+   background-color: #21A0A0;    
+   color: 	rgb(255, 233, 0);
+   font-size: 6rem;
+   text-align: center;
+   padding: 1rem;
+   
+}
+.container {
+    border: 2px solid black ;
+}
+.container,div {
+    font-size: 2rem;
+    margin: 1em ;    
+}
+
+/* Colors CSS */
+.hex {
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: #86DEFA;
+    margin: 5px;
+    border: 5px solid #942911;
+    text-align: center;
+}
+.rgb {
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+   background-color:  rgb(134, 222, 250);
+   margin: 5px;
+   border: 5px solid #F40000;
+   text-align: center;
+}
+.hsl {
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: hsl(194, 92%, 75%);
+    margin: 5px;
+    border: 5px solid #313B72;
+    text-align: center;
+}
+.transparency {
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color:  rgba(134, 222, 250, 0.6);
+    margin: 5px;
+    border: 5px solid  #A30B37;
+    text-align: center;
+}
+.col {
+    color: #F26419;
+    background-color: rgba(134, 222, 250,0.6) ;
+    font-size: 1.5rem;
+}
+/* Fontsize CSS */
+.fontsize {
+    border: 2px solid black  ;
+}
+.mainhead_h1 {
+    font-size: 50px;
+}
+.mainhead_h2 {
+    font-size: 2em;
+}
+.mainhead_p {
+    font-size: 19.2px;
+}
+.mainhead_p2 {
+    font-size: 16px;
+}
+
+/*Background_image CSS  */
+
+.background_image {
+    width: 90%;
+    height: 400px;
+   background-image: url('/images/shiva.png');
+   background-repeat: no-repeat;
+   background-size: 20%;
+   background-position: center 20%;
+   background-color: #87F5FB; 
+}
+
+/* rems & ems css */
+.html {
+    font-size: 16px;
+}
+.rems li {
+    font-size: 1.3rem;
+}
+.ems li {
+    font-size: 1.3em;
+  }
+
+  /* achieve Different shapes */
+  .shapes {
+    border: 10px double red;
+    font-size: 1.5rem;
+    padding: 1em;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+    
+  }
+  .shapes,p {
+    margin-bottom: 1rem;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid green;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+    border-radius: 50%;
+  }
+  .oval {
+    background-color: #C9D5B5;
+    height: 100px;
+    width: 200px;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+    margin: 3rem ;
+    border: 2px solid green;
+    border-radius: 50%;
+  }
+  .square {
+    background-color: #A9F8FB;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+    margin: 3rem ;
+  }
+  .rectangle {
+    background-color: #F0544F;
+    width: 200px;
+    height: 100px;
+    border: 2px solid green;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+    margin: 3rem ;
+  }
+  .trapezoid {
+    height: 0px;
+    width: 200px;
+    border-bottom: 100px solid #03045E;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+  }
+  .parallelogram {
+	width: 200px;
+	height: 100px;
+	transform: skew(20deg);
+	background-color: #942911;
+    border: 2px solid green;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+    margin: 3rem ;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #F2BB05;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-top: 150px solid #F2BB05;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-left: 150px solid #124E78;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+}
+.triangle-right {
+width: 0;
+height: 0;
+border-right: 150px solid #124E78;
+border-bottom: 100px solid transparent;
+border-top: 100px solid transparent;
+outline: 3px solid red;
+outline-offset: 0.25rem;
+}
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 150px solid #EC0868;
+    border-right: 150px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+  }
+  .triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 150px solid #EC0868;
+    border-left: 150px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+  }
+  .triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #531253;
+    border-right: 150px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+  }
+  .triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #531253;
+    border-left: 150px solid transparent;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+  }
+.leaf {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 300px 3px 300px;
+    background: green;
+    outline: 3px solid red;
+    outline-offset: 0.25rem;
+}
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0  0 gold;
+   
+  }
+  
+
+  
+  
